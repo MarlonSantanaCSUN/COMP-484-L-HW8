@@ -1,0 +1,179 @@
+/* Color Palette
+#0A192F - Navy
+#112240 - Dark Blue
+#64FFDA - Teal Accent
+#CCD6F6 - Light Text
+*/
+
+
+/* Global styles 
+------------------------------------*/
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #0A192F;
+    color: #CCD6F6;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+/* Font sizes */
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+p {
+    font-weight: 300;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+/* Header & Footer 
+------------------------------------*/
+
+header {
+    background-color: #112240;
+    text-align: center;
+    padding: 40px;
+    margin-top: 70px; /* to offset fixed nav */
+}
+
+header h1 {
+    color: #64FFDA;
+    margin: 0;
+}
+
+header h2 {
+    margin: 0;
+}
+
+footer {
+    background-color: #0A192F;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #64FFDA;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+/* Work Experience
+------------------------------------*/
+
+.work {
+    background-color: #0A192F;
+    padding: 40px;
+}
+
+.work h2 {
+    color: #64FFDA;
+}
+
+
+/* Education
+------------------------------------*/
+
+.education {
+    background:
+        linear-gradient(
+            rgba(10, 25, 47, 0.85),
+            rgba(17, 34, 64, 0.85)
+        ),
+        url("../images/education-bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 40px;
+}
+
+.education h2 {
+    color: #64FFDA;
+}
+
+/* Navigation Menu
+------------------------------------*/
+
+nav {
+    background: #0A192F;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* remove extra spacing between inline blocks */
+.display {
+    text-align: center;
+    font-size: 0;
+}
+
+.display a {
+    display: inline-block;
+    padding: 20px 15px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #CCD6F6;
+    transition: 0.3s;
+}
+
+.display a:hover {
+    background: #64FFDA;
+    color: #0A192F;
+}
