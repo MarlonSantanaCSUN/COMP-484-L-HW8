@@ -133,7 +133,7 @@ footer a {
             rgba(10, 25, 47, 0.85),
             rgba(17, 34, 64, 0.85)
         ),
-        url("/images/education-bg.jpg");
+        url("../images/education-bg.jpg");
 
     background-size: cover;
     background-position: center;
